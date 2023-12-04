@@ -1,0 +1,32 @@
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sub-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sub-box:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .main-box {
+        flex-direction: column;
+    }
+
+    .sub-box {
+        width: 80%;
+    }
+}

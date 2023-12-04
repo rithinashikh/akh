@@ -1,0 +1,17 @@
+.advocate-directorylist-maincontainer{
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+    /* background-color: #bb3333; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advocate-directorylist-subcontainer{
+    width: 100%;
+    box-sizing: border-box;
+   
+    /* background-color: blue; */
+    
+    /* background-color: blue; */
+}

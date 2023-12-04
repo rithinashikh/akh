@@ -1,0 +1,25 @@
+
+.memberdirectory-main-component{
+    /* background-color: #ffffff; */
+    
+        width: 100%;
+        height:auto;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   
+    /* width: 100%;
+    height:auto;
+    background-color: blue; */
+  
+    
+}
+.memberdirectorydirectorylist-subcontainer-child{
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: blue; */
+    
+
+}

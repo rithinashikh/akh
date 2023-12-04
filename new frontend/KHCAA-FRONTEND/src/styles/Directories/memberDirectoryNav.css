@@ -1,0 +1,265 @@
+.facebook-container {
+    max-width: 100%;
+    background-color: #2e2e30;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.facebook-subcontainer {
+    width: 100%;
+    width: 1200px;
+    /* background-color: #b1001e; */
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+.member-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-facebook {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.facebook-logo {
+    color: #9f9a9a;
+    margin-right: 13px;
+}
+
+.youtube-logo {
+    color: #9f9a9a;
+
+}
+
+.member-subcontainer {
+    width: 100%;
+    width: 1200px;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.member-khcaimage img {
+    max-width: 100%;
+    height: auto;
+}
+
+.member-phone {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.line {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    margin-top: 5px;
+}
+
+.member-nav {
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -18px;
+    
+}
+
+.under-line-for-nav {
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -18px;
+    
+}
+
+.nav-ul li.active {
+    background-color: #b1001e;
+    color: #ffffff;
+
+}
+
+.member-navigation {
+    width: 1200px;
+    height: auto;
+    
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 200;
+
+}
+
+.nav-ul li:hover {
+
+    background-color: #b1001e;
+    color: #ffffff;
+}
+
+.nav-ul li {
+
+    margin: 0 2px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+.submenu {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(-10px);
+    position: absolute;
+    top: 100%;
+    color: #8c8787;
+    font-size: 15px;
+    left: 0;
+    background-color: #2e2e30;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 5px;
+}
+
+.nav-ul li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    z-index: 100;
+
+}
+.advocate-navbar-line {
+    opacity: .5;
+}
+
+.submenu li {
+    display: block;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.submenu li:hover {
+    background-color: #b1001e;
+    border-radius: 5px;
+}
+
+.member-directory::-webkit-scrollbar {
+    width: 0;
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .hamburger-menu {
+
+        display: block;
+        cursor: pointer;
+        z-index: 1;
+        position: absolute;
+        top: 150px;
+        left: 15px;
+    }
+
+    .close-button-for-membernav {
+        font-size: 30px;
+        display: block;
+        cursor: pointer;
+        z-index: 1;
+        position: absolute;
+        top: 80px;
+        left: 15px;
+    }
+
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: #000000;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .nav-ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        /* Adjust this value based on your header height */
+        left: 0;
+        width: 100%;
+        background-color: #2e2e30;
+        z-index: 2;
+        /* Set a higher z-index to ensure it appears on top of other content */
+    }
+
+    .nav-ul.mobile-menu-open {
+        display: flex;
+    }
+
+    .member-navigation.mobile-menu-open {
+        height: auto;
+    }
+
+    .nav-ul li {
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        /* Add this line to establish a positioning context for absolute positioning */
+    }
+
+    .submenu {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.3s ease, transform 0.3s ease;
+        transform: translateY(-10px);
+        position: absolute;
+        top: 100%;
+        color: #8c8787;
+        font-size: 15px;
+        left: 0;
+        background-color: #2e2e30;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        width: 200px;
+        border-radius: 5px;
+        z-index: 3;
+        /* Set a higher z-index for submenu */
+    }
+
+    .nav-ul li:hover .submenu {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+        z-index: 100;
+    }
+
+    .advocate-navbar-line {
+        display: none;
+    }
+
+}

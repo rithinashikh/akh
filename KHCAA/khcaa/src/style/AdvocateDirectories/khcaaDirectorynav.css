@@ -1,0 +1,227 @@
+.advocate-navbar-for-socialmedia {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2e2e30;
+}
+.advocate-navbar-khcaa-logo-number-parent{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.advocate-navbar-khcaa-logo-number {
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /* background-color: #b2001e; */
+}
+
+.advocate-navbar-khcaa-logo img {
+    max-width: 100%;
+    height: auto;
+
+}
+.advocate-navigationbar-for-khcaa-parentdiv{
+    /* width: 100%;
+    max-width: 1500px;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:violet; */
+    /* background-color: aqua; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.advocate-navigationbar-for-khcaa {
+    width: 100%;
+    max-width: 1200px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -40px;
+    padding: 10px;
+    /* width: 100%;
+    max-width: 1500px;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+    
+}
+
+/* .navigation-bar {
+    margin-top: -46px;
+    margin-left: 30px;
+    background-color: blanchedalmond;
+} */
+  
+/* .navigation-bar:hover{
+    background-color: brown;
+    
+} */
+
+.advocate-navbar-for-home {
+    border-top: none;
+    border-bottom: none;
+    border-radius: 1px solid black;
+    padding: 20px
+}
+
+.advocate-navbar-for-home:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #b2001e;
+}
+
+.advocate-navbar-for-About {
+    padding: 20px
+}
+
+.advocate-navbar-for-About:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #b2001e;
+}
+
+.advocate-navbar-for-notices {
+    padding: 20px
+}
+
+.advocate-navbar-for-notices:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #b2001e;
+}
+
+.advocate-navbar-for-resources {
+    padding: 20px
+}
+
+.advocate-navbar-for-resources:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #b2001e;
+}
+
+.advocate-navbar-for-gallery {
+    padding: 20px
+}
+
+.advocate-navbar-for-gallery:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #b2001e;
+}
+
+.advocate-navbar-for-calender {
+    padding: 20px
+}
+
+.advocate-navbar-for-calender:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #b2001e;
+}
+
+.advocate-navbar-for-Members-Directory {
+    padding: 20px
+}
+
+.advocate-navbar-for-Members-Directory:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #b2001e;
+}
+
+.advocate-navbar-for-contact {
+    padding: 20px
+}
+
+.advocate-navbar-for-contact:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #b2001e;
+}
+
+.advocate-navbar-for-Members-Login {
+    padding: 20px
+}
+
+.advocate-navbar-for-Members-Login:hover {
+    transition: 0.5s ease-in-out;
+    background-color: #b2001e;
+}
+
+.advocate-navbar-bottom-line {
+    width: 100%;
+    margin-top: -30px;
+}
+
+.advocate-navbar-active-tab {
+    background-color: #b2001e;
+    color: #ffffff;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2e2e30;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.submenu.visible {
+    display: block;
+    position: absolute;
+    top: 100%; /* Adjust the distance from the top of the parent div */
+    left: 0;
+    /* additional styling */
+}
+
+.advocate-navbar-for-About:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    padding: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.submenu li:hover {
+    background-color: #b1001e;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 640px) {
+
+    .advocate-navbar-for-socialmedia {
+        height: 20px;
+        flex-direction: column;
+
+    }
+
+    .advocate-navbar-khcaa-logo-number {
+        flex-direction: column;
+        padding: 5px;
+        /* margin-top: 20px;  */
+    }
+}

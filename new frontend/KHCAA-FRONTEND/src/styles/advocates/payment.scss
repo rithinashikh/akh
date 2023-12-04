@@ -1,0 +1,7 @@
+@use '../abstracts/' as *;
+
+.payment-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

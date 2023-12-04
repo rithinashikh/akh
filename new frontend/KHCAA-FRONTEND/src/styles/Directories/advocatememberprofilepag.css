@@ -1,0 +1,169 @@
+ /* .khcaadetail-view-parent-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.custom-padding {
+    padding: 3rem !important;
+}
+
+.custom-user-card-full {
+    overflow: hidden;
+}
+
+.custom-card {
+    width: 100%; 
+    height: auto; 
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.custom-m-r-0 {
+    margin-right: 0px;
+}
+
+.custom-m-l-0 {
+    margin-left: 0px;
+}
+
+.custom-user-card-full .custom-user-profile {
+    border-radius: 5px 0 0 5px;
+}
+
+.custom-bg-c-lite-green {
+    background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+    background: linear-gradient(to right, #ee5a6f, #f29263);
+}
+
+.custom-user-profile {
+    padding: 20px 0;
+}
+
+.custom-card-block {
+    padding: 1.25rem;
+}
+
+.custom-m-b-25 {
+    margin-bottom: 25px;
+}
+
+.custom-img-radius {
+    border-radius: 5px;
+}
+
+.custom-h6 {
+    font-size: 14px;
+}
+
+.custom-card .custom-card-block p {
+    line-height: 25px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .custom-p {
+        font-size: 14px;
+    }
+}
+
+.custom-card-block {
+    padding: 1.25rem;
+}
+
+.custom-b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.custom-m-b-20 {
+    margin-bottom: 20px;
+}
+
+.custom-p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+.custom-card .custom-card-block p {
+    line-height: 25px;
+}
+
+.custom-m-b-10 {
+    margin-bottom: 10px;
+}
+
+.custom-text-muted {
+    color: #919aa3 !important;
+}
+
+.custom-b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.custom-f-w-600 {
+    font-weight: 600;
+}
+
+.custom-m-b-20 {
+    margin-bottom: 20px;
+}
+
+.custom-m-t-40 {
+    margin-top: 20px;
+}
+
+.custom-p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+.custom-m-b-10 {
+    margin-bottom: 10px;
+}
+
+.custom-m-t-40 {
+    margin-top: 20px;
+}
+
+.custom-user-card-full .custom-social-link li {
+    display: inline-block;
+}
+
+.custom-user-card-full .custom-social-link li a {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}  */
+
+
+.khcaa-detailview-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.khcaa-detailview-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.khcaa-detailview-col-md-7,
+.khcaa-detailview-col-lg-4,
+.khcaa-detailview-col-lg-8 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.khcaa-detailview-card {
+    text-align: center;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+

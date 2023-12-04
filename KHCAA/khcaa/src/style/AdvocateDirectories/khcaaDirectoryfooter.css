@@ -1,0 +1,67 @@
+.khcaaDirectoryfooter-parent{
+    width: 100%;
+    height: auto;
+    background-color:#2e2e30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+
+}
+
+.khcaaDirectoryfooter-child{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    padding: 20px;
+    /* background-color: yellowgreen; */
+    
+    
+}
+.khcaaDirectoryfooter-div-for-first-box{
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.khcaaDirectorfooter-line-for-hr-line {
+    border: none; /* Remove default border */
+    height:2px; /* Set the height/thickness of the line */
+    background-color: #818181; /* Set the color of the line */
+    margin: 10px 0; /* Adjust the margin as needed */
+    margin-top: 20px;
+    color: #ffffff;
+}
+.khcaaDirectorfooter-line-for-hr-line::before {
+    content: ''; /* Empty content, used for creating the dotted effect */
+    display: inline-block;
+    border-top: 1px dotted #310707; /* Set the color of the dots */
+    width: 100%; /* Set the width to 100% to cover the entire line */
+    height: 1px; /* Set the height to 1px to control the size of the dots */
+}
+.khcaaDireectorfooter-line-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.khcaaDireectorfooter-maintained-persons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+@media (max-width: 640px){
+    .khcaaDirectoryfooter-div-for-first-box{
+        flex-direction: column;
+    }
+    .khcaaDireectorfooter-line-images{
+        flex-direction: column;
+    }
+}

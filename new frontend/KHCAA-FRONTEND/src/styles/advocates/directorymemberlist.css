@@ -1,0 +1,101 @@
+/* .memberdirectory-maincontainer {
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .memberdirectory-maincontainer .memberdirectory-subcontainer {
+    width: 1000px;
+    height: 100vh;
+   
+  }
+  .memberdirectory-maincontainer .memberdirectory-subcontainer .member-searchcontainer{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 30px;
+  }
+
+  .memberdirectory-maincontainer .memberdirectory-subcontainer .member-searchcontainer .member-find-lawyer{
+    font-size: 25px;
+    color: #b1001e;
+    font-weight: 800;
+  }
+
+  .memberdirectory-maincontainer .memberdirectory-subcontainer .member-searchcontainer .member-directory-search{
+    background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .directory-member-list{
+    padding: 10px;
+  }
+
+ 
+  @media screen and (max-width: 640px){
+    .memberdirectory-maincontainer .memberdirectory-subcontainer .member-searchcontainer{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 10px;
+     }
+     .memberdirectory-maincontainer .memberdirectory-subcontainer .member-searchcontainer .member-find-lawyer{
+        font-size: 15px;
+        color: #b1001e;
+        font-weight: 800;
+      }
+
+      .directory-member-list{
+        padding: 10px;
+      }
+
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    max-width: 100%;
+    width: 300px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .container {
+    background-color: #f1f1f1;
+}
+
+.card .container {
+    padding: 16px;
+}
+
+.card .container h4 {
+    font-size: 20px;
+    color: #b1001e;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.card.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+} */

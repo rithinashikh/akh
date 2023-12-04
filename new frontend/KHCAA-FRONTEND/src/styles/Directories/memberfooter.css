@@ -1,0 +1,258 @@
+/* 
+  .footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: auto; 
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-container-image-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo {
+    max-width: 100%; 
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info li {
+   
+}
+
+
+.contact-info li:first-child {
+    margin-right: auto; 
+}
+
+.contact-info li:last-child {
+    margin-left: auto; 
+}
+
+h3 {
+    color: #b1001e;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+.footer-members-list {
+    font-size: 15px;
+}
+
+.footer-members-list a {
+    margin-top: 30px; 
+
+
+@media screen and (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .contact-info li {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer-container {
+        padding: 10px; 
+    }
+} */
+
+/* .new-footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.new-footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+} */
+
+/* .new-footer-info {
+    flex: 1;
+    margin-right: 20px;
+} */
+
+/* .new-footer-container-image-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.new-footer-logo {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.new-footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+.new-footer-members-list {
+    font-size: 15px;
+}
+
+.new-footer-members-list a {
+    margin-top: 30px;
+} */
+
+.khcaaDirectoryfooter-parent{
+    width: 100%;
+    height: auto;
+    background-color:#2e2e30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    box-sizing: border-box;
+
+}
+
+.khcaaDirectoryfooter-child{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    padding: 20px;
+    /* background-color: yellowgreen; */
+    
+    
+}
+.khcaaDirectoryfooter-div-for-first-box{
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.khcaaDirectorfooter-line-for-hr-line {
+    border: none; /* Remove default border */
+    height:2px; /* Set the height/thickness of the line */
+    background-color: #818181; /* Set the color of the line */
+    margin: 10px 0; /* Adjust the margin as needed */
+    margin-top: 20px;
+    color: #ffffff;
+}
+.khcaaDirectorfooter-line-for-hr-line::before {
+    content: ''; /* Empty content, used for creating the dotted effect */
+    display: inline-block;
+    border-top: 1px dotted #310707; /* Set the color of the dots */
+    width: 100%; /* Set the width to 100% to cover the entire line */
+    height: 1px; /* Set the height to 1px to control the size of the dots */
+}
+.khcaaDireectorfooter-line-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.khcaaDireectorfooter-maintained-persons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.khcaaDirectoryfooter-div-for-address{
+    margin-top: 20px;
+    font-weight: 200;
+    color: #7a7a7c;
+}
+.khcaaDirectoryfooter-div-for-mobile-number{
+    font-weight: 200;
+    color: #dadadf;
+}
+.khcaaDirectoryfooter-div-for-land-number{
+    font-weight: 200;
+    color: #dadadf;
+}
+.khcaaDirectoryfooter-div-for-yahoo-mail{
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 200;
+    color: #b1001e;
+}
+.khcaaDirectoryfooter-div-for-printing-invited{
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 200;
+    color: #dadadf;
+    margin-bottom: 10px;
+}
+.khcaaDirectoryfooter-div-for-renewal-membership{
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 200;
+    color: #dadadf;
+    margin-bottom: 10px;
+}
+
+.khcaaDirectoryfooter-div-for-siting-notice{
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 200;
+    color: #dadadf;
+    margin-bottom: 10px;
+
+}
+
+.khcaaDirectoryfooter-div-for-copy-right{
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: #dadadf;
+}
+
+.khcaaDirectoryfooter-div-for-developed-by{
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: #dadadf;
+}
+@media (max-width: 640px){
+    .khcaaDirectoryfooter-div-for-first-box{
+        flex-direction: column;
+    }
+    .khcaaDireectorfooter-line-images{
+        flex-direction: column;
+    }
+}

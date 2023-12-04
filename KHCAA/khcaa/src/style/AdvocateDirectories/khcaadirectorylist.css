@@ -1,0 +1,171 @@
+.khcaaDirectorylist-parent-container{
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.khcaaDirectorylist-search-container{
+    width: 100%;
+    
+    max-width: 1200px;
+    /* background-color: blue; */
+    
+}
+.khcaaDirectorylist-findlawyer-container{
+    width: 100%;
+    /* background-color: rgb(199, 48, 48); */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.khcaaDirectorylist-findlawyer{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b1001e;
+    padding-right: 30px;
+}
+
+.KhcaaDirectorylist-searchlawyer{
+    border: none;
+    
+}
+.khcaaDirectorylist-input-text{
+    padding: 10px;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 5px;
+
+}
+
+/* memberlist cards */
+
+.khcaaDirectorylist-membercard-lists{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.khcaaDirectorylist-membercars-for-advocates {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    /* background-color: rgb(24, 32, 32); */
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.khcaaDirectorylist-profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    /* padding: 10px; */
+    /* border-radius: 8px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 100%;
+    max-width: 200px; 
+    height: auto;
+    /* border-radius: 50%; */
+    margin-bottom: 30px; 
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: 5px;
+    /* border-radius: 8px;  */
+    /* margin-bottom: 10px; */
+}
+
+.profile-details{
+    width: 100%;
+    height: auto;
+    background-color: #e6e6e6;
+    box-sizing: border-box;
+    padding-left: 25px;
+    
+}
+.profile-details:hover{
+    background-color: #353535;
+    transition: .5s ease-in-out;
+    color: #ffffff;
+}
+
+.khcaaDirectory-advocate-name{
+    overflow: hidden;
+    font-weight: 700;
+}
+
+.khcaaDirectory-advocate-court{
+    margin-top: -20px;
+    font-weight:200;
+    color: #b6b5b5;
+    font-style: italic;
+}
+.khcaaDirectory-advocate-number{
+    margin-top: 20px;
+    font-weight: 200;
+}
+.khcaaDirectory-advocate-email{
+    margin-top: -10px;
+    font-weight: 200;
+}
+.khcaaDirectory-advocate-viewprofile{
+    background:none;
+    color: #b1001e;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+}
+@media (max-width: 900px){
+    .khcaaDirectorylist-membercars-for-advocates{
+       
+            padding: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+
+    }
+
+}
+@media (max-width: 900px){
+    .khcaaDirectorylist-membercars-for-advocates{
+        padding: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 640px){
+    .khcaaDirectorylist-findlawyer-container{
+        flex-direction: column;
+    }
+    .khcaaDirectorylist-findlawyer{
+        font-size: 20px;
+        padding-right: 10px;
+        margin-top: -20px;
+    }
+    .khcaaDirectorylist-input-text{
+        padding: 5px;
+        border-radius: 2px;
+        margin-top: -30px;
+    }
+    .khcaaDirectorylist-membercars-for-advocates {
+        padding: 10px;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+

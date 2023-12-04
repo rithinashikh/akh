@@ -1,0 +1,12 @@
+.full-width-container {
+    width: 100%; /* Ensure the container takes up 100% of the width */
+    margin-right: auto; /* Center the container horizontally */
+    margin-left: auto; /* Center the container horizontally */
+    padding-right: 15px; /* Adjust padding if necessary */
+    padding-left: 15px; /* Adjust padding if necessary */
+  }
+  .swal-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Adjust this value to control the gap */
+  }

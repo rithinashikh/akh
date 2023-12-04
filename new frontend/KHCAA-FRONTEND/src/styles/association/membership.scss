@@ -1,0 +1,12 @@
+@use '../abstracts/' as *;
+
+.association__container {
+    // background-color: $orange;
+    @include flex(center, space-between);
+     
+    &__title{
+        color:$purple;
+    }
+     
+   
+}

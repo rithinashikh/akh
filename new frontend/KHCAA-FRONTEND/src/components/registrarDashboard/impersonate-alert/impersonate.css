@@ -1,0 +1,67 @@
+/* @keyframes boom {
+    0% {
+      transform: scale(.5);
+    }
+    50% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  
+  .booming-alert {
+    animation: boom 1s ease-in-out infinite;
+  }
+
+   */
+   /* @keyframes boom {
+    0% {
+      transform: scale(0.5);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .booming-alert {
+    animation: boom 1s ease-in-out infinite;
+  } */
+  /* @keyframes boom {
+    0% {
+      transform: scale(0.5);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .booming-alert {
+    animation: boom 2s ease-in-out infinite;
+  }
+   */
+
+   @keyframes subtleBoom {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .booming-alert {
+    animation: subtleBoom 3s ease-in-out infinite;
+  }
+  
+  
